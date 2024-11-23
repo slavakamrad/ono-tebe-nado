@@ -8,14 +8,13 @@
 
 .header__links-list {
   display: flex;
-  gap: 33px; 
+  gap: 33px;
   font-size: 18px;
   line-height: 24.3px;
   text-underline-offset: 0.48ex;
   list-style: circle;
-
 }
-.header__link_active{
+.header__link_active {
   text-decoration: none;
 }
 .header__links-list-item_no-bullet {
@@ -25,31 +24,22 @@
 
 .logo-black {
   width: 148px;
-  height: 105px;  
+  height: 105px;
 }
 .contact {
   display: block;
   justify-self: end;
   align-self: center;
-  padding-right: 37px;
+  padding-right: 34px;
+  padding-bottom: 5px;
+}
+.contact-item {
   font-weight: 400;
   font-size: 18px;
   font-style: normal;
   line-height: 24px;
-}
-.phone {
-  font-weight: 400;
-  font-size: 18px;
-  font-style: normal;
-  line-height: 22px;
   letter-spacing: 0.01em;
   text-underline-offset: 0.4ex;
-}
-.email {
-  text-underline-offset: 0.3ex;
-}
-.address {
-  font-style: normal;
 }
 .overlay {
   position: absolute;
@@ -65,7 +55,7 @@
   position: relative;
   z-index: 0;
   display: flex;
-  flex-direction: column; 
+  flex-direction: column;
   padding: 60px 50px 50px 50px;
   color: #ffffff;
   text-transform: uppercase;
@@ -76,30 +66,30 @@
 }
 .cover__title {
   z-index: 1;
-  padding-top: 100px; 
+  padding-top: 100px;
   font-weight: 700;
   font-size: 100px;
   letter-spacing: 0.3em;
- 
 }
 .aligned-text {
   display: block;
 }
 .text-center {
   position: relative;
-  line-height: 136%;
+  line-height: 142%;
   text-align: center;
 }
 .text-right {
-  position: relative; 
+  position: relative;
+  line-height: 100%;
   text-align: right;
 }
 .letter-spacing-extended {
   position: relative;
-  letter-spacing: 0.6em; 
+  letter-spacing: 0.6em;
 }
-.no-letter-spacing{
-  letter-spacing: 0em; 
+.no-letter-spacing {
+  letter-spacing: 0em;
 }
 .cover__description {
   z-index: 1;
@@ -107,7 +97,7 @@
   grid-area: cover-bottom;
   justify-content: space-around;
   align-items: center;
-  padding-top: 123px;
+  padding-top: 135px;
   color: #ffffff;
   font-weight: 400;
   font-size: 22px;
@@ -153,11 +143,11 @@
 .lots__card-list {
   display: flex;
   flex-direction: row;
-  flex-wrap:wrap;
+  flex-wrap: wrap;
   gap: 25px;
   list-style: none;
 }
-.card-link{
+.card-link {
   text-decoration: none;
 }
 .card {
@@ -192,7 +182,6 @@
   font-weight: normal;
   font-size: 20px;
   line-height: 120%;
-
 }
 .lots__card-list-item {
   position: relative;
@@ -246,19 +235,18 @@
 }
 .about__title {
   position: relative;
-  align-self:flex-start; 
+  align-self: flex-start;
   padding-bottom: 90px;
-  padding-left: 8px;  
+  padding-left: 8px;
   font-weight: bold;
   font-size: 40px;
   text-transform: uppercase;
 }
 .about__text-p {
-  position: relative; 
-  padding-left: 8px; 
- 
+  position: relative;
+  padding-left: 8px;
 }
-.about__text-p-with-padding-right{
+.about__text-p-with-padding-right {
   padding-right: 5px;
 }
 .footer {
@@ -270,7 +258,7 @@
   padding-bottom: 88px;
   padding-left: 50px;
 }
-.footer__contact{
+.footer__contact {
   padding-top: 30px;
 }
 .footer__menu-list {
@@ -278,8 +266,8 @@
   flex-direction: column;
   justify-self: center;
   align-items: center;
-  padding-top: 27px;  
-  font-size: 18px; 
+  padding-top: 27px;
+  font-size: 18px;
   line-height: 1.3em;
   list-style: none;
 }
@@ -287,7 +275,6 @@
   width: 48px;
   height: 48px;
   list-style: none;
- 
 }
 .footer__social-list {
   display: flex;
@@ -295,6 +282,6 @@
   gap: 48px;
   padding-top: 27px;
 }
-.footer__menu-link_active{
+.footer__menu-link_active {
   text-decoration: none;
 }
